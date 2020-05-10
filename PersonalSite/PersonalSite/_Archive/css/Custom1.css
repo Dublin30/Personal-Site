@@ -1,0 +1,190 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Space+Mono&display=swap');
+body {
+}
+
+
+/*.image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 10em;
+    height: 10em;
+}*/
+.navbar-inverse {
+    margin: 0;
+}
+
+#headerwrap h3 {
+    font-family: 'Architects Daughter', cursive;
+}
+header {
+    background-image: url(/img/header-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header a {
+    margin-left: 43em;
+}
+
+header div {
+    text-align: center;
+    font-size: 20em;
+    color: #090909;
+}
+
+    header h3 {
+        text-align: left;
+        font-family: 'Indie Flower', cursive;
+        font-size: .1em;
+        text-align: center;
+        color: #090909
+    }
+
+    header h1 {
+        font: bold, italic;
+        font-size: .2em;
+        color: #090909
+    }
+
+    div {
+        padding: 0;
+    }
+    
+    article ul li {
+        color: #fff;
+    }
+
+a {
+    color: #337ab7;
+}
+
+#f i {
+    color: #337ab7;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #337ab7;
+}
+
+
+
+#tech {
+    color: #fff;
+}
+
+ p {
+     font-size: 1.2em;
+ }
+ .list1 ul {
+     font-size: 1.2em;
+     text-align: left;
+ }
+
+ h4 {
+     color: #fff;
+ }
+ .list2 li {
+     font-size: 1.3em;
+     text-align: left;
+ }
+ article h5 {
+     color: #fff;
+     text-align: left;
+     font-size: 1.2em
+ }
+ .list3 li {
+     font-size: 1.3em;
+     text-align: left;
+ }
+
+.list4 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.list5 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.list6 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.list7 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+div h2 {
+    color: #fff;
+}
+
+div h1 {
+    text-align: center;
+}
+
+a:hover, a:active, a:focus {
+    color: lightblue;
+    text-decoration: underline;
+    background-color: darkblue;
+}
+
+.nav {
+    color: #fff;
+}
+
+#myCarousel h3{
+    color: white;
+    text-align: center;
+}
+
+#myCarousel p {
+    color: white;
+}
+
+.carousel-inner .item img{
+    display: inline-block;
+    margin: auto;
+    max-height: 580px;
+}
+
+#logo {
+    margin-top: -11em;
+}
+
+#link {
+    float: right;
+    margin-right: 1em;
+    margin-top: -6em;
+}
+
+#resumePDF {
+    margin-left: 36em;
+
+}
+
+#tags {
+    display: inline-flex;
+}
+
+#accordion {
+    color: #fff;
+}
+
+#TPics {
+    color: #337ab7;
+}
+
+#links {
+    color: #337ab7;
+
+}
+
+#BPic {
+    margin-top: -1.5em;
+    height: 282px;
+    width: 225px;
+}

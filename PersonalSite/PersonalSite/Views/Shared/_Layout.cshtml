@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Quintin Personal Site</title>
+
+    @* favcon *@
+    <link href="~/Content/img/favicon-16x16.png" rel="icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|EB+Garamond" rel="stylesheet">
+
+    <!-- =======================================================
+      Template Name: Minimal
+      Template URL: https://templatemag.com/minimal-bootstrap-template/
+      Author: TemplateMag.com
+      License: https://templatemag.com/license/
+    ======================================================= -->
+
+    @Styles.Render("~/Content/css")
+
+
+</head>
+
+<body>
+    <header id="theHeader">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h1 id="head">Quintin Dublin </h1>
+                    <h3>Full-Stack Developer</h3>
+                </div>
+            </div>
+        </div>
+        @*<img src="~/Content/img/Q logo.png" alt="Quintin Logo" id="logo" />*@
+
+    </header>
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: darkblue">
+        <div class="container">
+            <div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse; col-sm-6 col-sm-offset-9 col-sm-offset-3" style="color: green">
+                    <ul class="nav navbar-nav">
+                        @*<li><img src="~/Content/img/Q logo.png" style="width:100px; height:100px" /></li>*@
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("Resume", "Resume", "Resume")</li>
+                        <li>@Html.ActionLink("College Links", "Links", "Links")</li>
+                        <li>@Html.ActionLink("Portfolio", "Index", "Portfolio")</li>
+                        <li>@Html.ActionLink("Contact Us", "Contact", "Contact")</li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @RenderBody()
+    <div style="text-align: center">
+        <a href="https://www.linkedin.com/in/quintin-dublin" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 20px; color: darkblue; height: 0;"></i></a>
+
+        <a href="mailto:qdublin@outlook.com" target="_blank"><i class="fa fa-envelope fa-xs" aria-hidden="true" style="font-size: 20px; color:darkblue" id="mail"></i></a>
+    </div>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - Quintin Personal Site</p>
+    </footer>
+
+
+    @Scripts.Render("~/Scripts/js")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

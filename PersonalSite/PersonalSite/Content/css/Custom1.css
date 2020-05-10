@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Indie+Flower|Space+Mono&display=swap');
+
+
+.image {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 10em;
+    height: 10em;
+}
+.navbar-inverse {
+    margin: 0;
+}
+
+#headerwrap h3 {
+    font-family: 'Architects Daughter', cursive;
+}
+/*#theHeader {
+    font-family:
+
+}*/
+
+/*header a {
+    margin-left: 43em;
+}*/
+
+header div {
+    text-align: center;
+    color: green;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    /*border-right: .15em solid green;*/ /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typewriter 3.5s steps(25, end) 1s 1 normal both, 
+        blinkTextCursor .75s step-end;
+}
+
+    header h3 {
+        text-align: left;
+        font-family: 'Indie Flower', bold;
+        font-size: 4em;
+        text-align: center;
+        color: #090909
+    }
+
+header h1 {
+    font: bold, italic;
+    font-size: 10em;
+    color: #090909;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+    div {
+        padding: 0;
+    }
+    
+    article ul li {
+        color: #fff;
+    }
+
+a {
+    color: #337ab7;
+}
+
+#f i {
+    color: #337ab7;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #337ab7;
+}
+
+
+
+#tech {
+    color: #fff;
+}
+
+ p {
+     font-size: 1.2em;
+ }
+ .list1 ul {
+     font-size: 1.2em;
+     text-align: left;
+ }
+
+ h4 {
+     color: #fff;
+ }
+ .list2 li {
+     font-size: 1.3em;
+     text-align: left;
+ }
+ article h5 {
+     color: #fff;
+     text-align: left;
+     font-size: 1.2em
+ }
+ .list3 li {
+     font-size: 1.3em;
+     text-align: left;
+ }
+
+.list4 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.list5 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.list6 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.list7 li {
+    font-size: 1.3em;
+    text-align: left;
+}
+
+div h2 {
+    color: #fff;
+}
+
+div h1 {
+    text-align: center;
+}
+
+a:hover, a:active, a:focus {
+    color: lightblue;
+    text-decoration: underline;
+    background-color: darkblue;
+}
+
+.nav {
+    color: #fff;
+}
+
+#myCarousel h3{
+    color: white;
+    text-align: center;
+}
+
+#myCarousel p {
+    color: white;
+}
+
+.carousel-inner .item img{
+    display: inline-block;
+    margin: auto;
+    max-height: 580px;
+}
+
+/*#logo {
+    margin-top: -11em;
+}*/
+
+#link {
+    float: right;
+    margin-right: 1em;
+    margin-top: -6em;
+}
+
+#resumePDF {
+    margin-left: 36em;
+
+}
+
+#tags {
+    display: inline-flex;
+}
+
+#accordion {
+    color: #fff;
+}
+
+#BPic {
+    margin-top: -1.5em;
+    height: 282px;
+    width: 225px;
+}
+
+#devList {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+/*.anim-typewriter{
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}*/
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width:  100%;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75)
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+footer {
+    text-align: center;
+}
+

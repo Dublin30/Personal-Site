@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Links";
+}
+
+@*<h2>@ViewBag.title</h2>*@
+
+
+
+<div id="headerwrap">
+    <div class="container">
+        <h2 id="links" style="color:darkblue">Colleague's Link's</h2>
+        <br />
+        <br />
+        <br />
+        <div class="carousel" id="myCarousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" id="proPhoto">
+                    <a href="http://Tforeman.com" target="_blank"><img src="~/Content/img/Tim1.jpg" /></a>
+                    <br />
+                    <div style="padding-bottom: 50px">
+                        <h2 id="TPics" style="color: darkblue">Timothy Foreman</h2>
+                    </div>
+
+                </div>
+
+                <div class="item" id="stLuke1">
+                    <img src="~/Content/img/Ashton1.jpg" style="margin-top: .3em" id="APic" />
+                    <br />
+                    <div style="padding-bottom: 50px">
+                        <h2 style="color:darkblue">Ashton Loya</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="http://brodeesworld.com" target="_blank"><img src="~/Content/img/brodeetie2.jpg" id="BPic""/></a>
+                    <div style="padding-bottom: 50px">
+                        <h2 style="color:darkblue">Brodee</h2>
+
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- /container -->
+</div>
+
+<div id="copyrights">
+    <div class="container">
+        <p>
+            &copy; Copyrights <strong>Minimal</strong>. All Rights Reserved
+        </p>
+        <div class="credits">
+            <!--
+              You are NOT allowed to delete the credit link to TemplateMag with free version.
+              You can delete the credit link only if you bought the pro version.
+              Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/minimal-bootstrap-template/
+              Licensing information: https://templatemag.com/license/
+            -->
+            Created with Minimal template by <a href="https://templatemag.com/">TemplateMag</a>
+        </div>
+    </div>
+</div>
